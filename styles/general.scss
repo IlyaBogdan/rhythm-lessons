@@ -1,0 +1,13 @@
+:root {
+    --bad-color: rgb(215, 19, 19);
+    --good-color: rgb(33, 200, 33);
+}
+
+.btn {
+    &.good {
+        background-color: var(--good-color);
+    }
+    &.bad {
+        background-color: var(--bad-color);
+    }
+}
