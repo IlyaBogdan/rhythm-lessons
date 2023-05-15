@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import StartScreeen from './views/StartScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Fuck</Text>
-      <StatusBar style="auto" />
-    </View>
+    <StartScreeen/>
   );
 }
 
